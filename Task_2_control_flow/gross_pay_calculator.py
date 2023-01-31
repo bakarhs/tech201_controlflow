@@ -6,6 +6,6 @@ if hours_worked < 40:
 else:
     overtime = hours_worked - 40
     overtime_pay = overtime * (rate_of_pay * 1.5)
-    gross_pay = (40 * rate_of_pay) + overtime_pay
+    gross_pay = 40 * rate_of_pay + overtime_pay
 
-print(gross_pay)
+print(f"Your gross pay for the week is {gross_pay}")
